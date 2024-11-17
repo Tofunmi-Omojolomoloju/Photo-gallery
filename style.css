@@ -6,6 +6,11 @@
     list-style: none;
 }
 
+#title {
+    background-color: rgba(137, 43, 226, 0.442);
+    font-size: 30px;
+    height: 50px;
+}
 img{
     width: 300px;
     height: auto;

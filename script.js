@@ -2,54 +2,55 @@ const change = document.getElementById("photo1");
 
 change.addEventListener("click", (event) => {
     event.target.style.background = "gold";
-    event.target.textContent = "Black on yellow" ;
+    event.target.textContent = "Sunset Collection" ;
 });
 
 const change2 = document.getElementById("photo2");
 
 change2.addEventListener("click", (event) => {
     event.target.style.background = "#f2f2f2";
-    event.target.textContent = "Hoodie on jean" ;
+    event.target.textContent = "Hoodrat Collection" ;
 });
 
-// const change2 = document.getElementById("photo2");
+const change3 = document.getElementById("photo3");
 
-// change2.addEventListener("click", (event) => {
-//     event.target.style.background = "#f2f2f2";
-//     event.target.textContent = "Hoodie on jean" ;
-// });
+change3.addEventListener("click", (event) => {
+    event.target.style.background = "lavender";
+    event.target.textContent = "Purple Hisbiscus" ;
+});
 
-// const change2 = document.getElementById("photo2");
+const change4 = document.getElementById("photo4");
 
-// change2.addEventListener("click", (event) => {
-//     event.target.style.background = "#f2f2f2";
-//     event.target.textContent = "Hoodie on jean" ;
-// });
+change4.addEventListener("click", (event) => {
+    event.target.style.background = "green";
+    event.target.textContent = "Greening" ;
+});
 
-// const change2 = document.getElementById("photo2");
+const change5 = document.getElementById("photo5");
 
-// change2.addEventListener("click", (event) => {
-//     event.target.style.background = "#f2f2f2";
-//     event.target.textContent = "Hoodie on jean" ;
-// });
+change5.addEventListener("click", (event) => {
+    event.target.style.background = "#7caac6";
+    event.target.textContent = "Monster Jay" ;
+});
 
-// const change2 = document.getElementById("photo2");
+const change6 = document.getElementById("photo6");
 
-// change2.addEventListener("click", (event) => {
-//     event.target.style.background = "#f2f2f2";
-//     event.target.textContent = "Hoodie on jean" ;
-// });
+change6.addEventListener("click", (event) => {
+    event.target.style.background = "black";
+    event.target.style.color = "white"
+    event.target.textContent = "Black on white" ;
+});
 
-// const change2 = document.getElementById("photo2");
+const change7 = document.getElementById("photo7");
 
-// change2.addEventListener("click", (event) => {
-//     event.target.style.background = "#f2f2f2";
-//     event.target.textContent = "Hoodie on jean" ;
-// });
+change7.addEventListener("click", (event) => {
+    event.target.style.background = "#35530a";
+    event.target.textContent = "Navy Wavy" ;
+});
 
-// const change2 = document.getElementById("photo2");
+const change8 = document.getElementById("photo8");
 
-// change2.addEventListener("click", (event) => {
-//     event.target.style.background = "#f2f2f2";
-//     event.target.textContent = "Hoodie on jean" ;
-// });
+change8.addEventListener("click", (event) => {
+    event.target.style.background = "#c19a6c";
+    event.target.textContent = "Brown in suit" ;
+});
