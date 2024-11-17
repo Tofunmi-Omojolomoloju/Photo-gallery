@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+.image:hover {
+transform: scale(1.05);
+transition: traansform 0.3s ease-in-out;
+}
+
+.text-center {
+    font: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
