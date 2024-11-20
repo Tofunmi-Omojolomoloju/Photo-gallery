@@ -52,11 +52,17 @@ img{
 .image:hover {
 transform: scale(1.05);
 transition: traansform 0.3s ease-in-out;
-transition:;
+transition: smooth;
 }
 
 .text-center {
     font: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
+}
+
+@media (max-width: 600px) {
+    .text-center{
+        font-size: 16px;
+    }
 }
