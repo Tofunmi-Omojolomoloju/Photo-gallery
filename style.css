@@ -7,18 +7,52 @@
 }
 
 #title {
-    background-color: rgba(137, 43, 226, 0.442);
+    font-family: sa;
     font-size: 30px;
     height: 50px;
 }
+
+h1{
+    position: relative;
+}
+h1::before{
+content: '';
+position: absolute;
+width: 50px;
+height: 3px;
+background-color: #bb44c6;
+top: 40px;
+left: 50%;
+transform: translate(-50%);
+animation: animate 4s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        width: 50px;
+    }
+    50%{
+        width: 100px;
+    }
+    100%{
+        width: 50px;
+    }
+}
+
 img{
-    width: 300px;
+    width: 250px;
     height: auto;
 }
 
+.image {
+    border: 1px sold black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    border-radius: 5px;
+}
 .image:hover {
 transform: scale(1.05);
 transition: traansform 0.3s ease-in-out;
+transition:;
 }
 
 .text-center {
