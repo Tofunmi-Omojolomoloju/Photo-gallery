@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+body{
+    background-color: #ecede6;
+}
+
 #title {
     font-family: sa;
     font-size: 30px;
@@ -37,22 +41,6 @@ animation: animate 4s linear infinite;
     100%{
         width: 50px;
     }
-}
-
-img{
-    width: 250px;
-    height: auto;
-}
-
-.image {
-    border: 1px sold black;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
-    border-radius: 5px;
-}
-.image:hover {
-transform: scale(1.05);
-transition: traansform 0.3s ease-in-out;
-transition: smooth;
 }
 
 .text-center {

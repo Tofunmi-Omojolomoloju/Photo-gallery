@@ -8,8 +8,8 @@ change.addEventListener("click", (event) => {
 const change2 = document.getElementById("photo2");
 
 change2.addEventListener("click", (event) => {
-    event.target.style.background = "#f2f2f2";
-    event.target.textContent = "Hoodrat Collection" ;
+    event.target.style.background = "#f9e0ba";
+    event.target.textContent = "Hood Collection" ;
 });
 
 const change3 = document.getElementById("photo3");
